@@ -5,8 +5,8 @@
 
 # assignmnet #1
 
-# ask the user to input prefered unit system/ distance driven/ gas usage
-choice = input("Please enter your prefered unit system (USC/Metric): ")
+# ask the user to input preferred unit system/ distance driven/ gas usage
+choice = input("Please enter your preferred unit system (USC/Metric): ")
 dist = float(input("Please input your distance driven: "))
 gas = float(input("Please input your gas usage during this distance: "))
 
@@ -71,7 +71,7 @@ elif(choice.lower() == "metric"):
     # print the final output
     print("\t\t\t\t\t\t\t\t\t" + "USC" + "\t\t\t\t\t\t" + "Metric")
     print("Distance ______________:" + "\t\t   ", format(dist_conv, '.3f'), " miles", "\t\t\t", format(dist, '.3f')," Km")
-    print("Gas ___________________:" + "\t\t   ", format(gas_conv, '.3f'), " gallons", "\t\t", format(gas, '.3f')," Liters")
+    print("Gas ___________________:" + "\t\t   ", format(gas_conv, '.3f'), " gallons", "\t\t\t", format(gas, '.3f')," Liters")
     print("Consumption ___________:" + "\t\t   ", format(mpg, '.3f'), " mpg", "\t\t\t\t", format(lpk, '.3f')," 1/100Km")
     print("")
     print("Gas Consumption Rating : " + rating)

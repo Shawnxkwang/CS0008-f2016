@@ -1,0 +1,6 @@
+1.write code to ask the user to input their preferred unit system, distance, and gas usage.
+2.parse the input to float as needed.
+3. convert between two unit systems, we need an if statement here to decide which did the user input.
+4. calculate mpg and liter per 1/100 kilometers, we need an if statement here to decide.
+5. then compute the consumption category as asking in the requirement using if-elif-else
+6. output the final formatted status, use format() function to do this.

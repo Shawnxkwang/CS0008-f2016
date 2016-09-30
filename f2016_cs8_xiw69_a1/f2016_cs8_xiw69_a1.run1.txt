@@ -1,0 +1,17 @@
+input:  usc 
+	100
+	20
+
+
+
+
+
+Please enter your prefered unit system (USC/Metric): usc
+Please input your distance driven: 100
+Please input your gas usage during this distance: 20
+									USC						Metric
+Distance ______________:		    100.000  miles 			 160.934  Km
+Gas ___________________:		    20.000  gallons 		 75.708  Liters
+Consumption ___________:		    5.000  mpg 				 47.043  1/100Km
+
+Gas Consumption Rating : Extremely poor

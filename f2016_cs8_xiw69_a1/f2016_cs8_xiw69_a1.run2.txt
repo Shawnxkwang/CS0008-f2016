@@ -1,0 +1,17 @@
+input: metric
+	5000
+	30
+
+
+
+
+
+Please enter your prefered unit system (USC/Metric): metric
+Please input your distance driven: 5000
+Please input your gas usage during this distance: 30
+									USC						Metric
+Distance ______________:		    3106.855  miles 			 5000.000  Km
+Gas ___________________:		    7.925  gallons 			 30.000  Liters
+Consumption ___________:		    392.024  mpg 				 0.600  1/100Km
+
+Gas Consumption Rating : Excellent
