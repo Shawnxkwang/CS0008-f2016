@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="68dab8d2-62b0-4edb-beab-f23ac140e274" name="Default" comment="Hello World">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/f2016_cs8_xiw69_a1/f2016_cs8_xiw69_a1.py" afterPath="$PROJECT_DIR$/f2016_cs8_xiw69_a1/f2016_cs8_xiw69_a1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/f2016_cs8_xiw69_a1/f2016_cs8_xiw69_a1.readme.txt" afterPath="$PROJECT_DIR$/f2016_cs8_xiw69_a1/f2016_cs8_xiw69_a1.readme.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/hello.py" afterPath="$PROJECT_DIR$/test/hello.py" />
     </list>
     <ignored path="CS0008-f2016.iws" />
@@ -368,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1475188583723</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="final commit">
+      <created>1475259695376</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1475259695376</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -409,7 +416,8 @@
     <MESSAGE value="Executed Exercise 3 from Chapter 1." />
     <MESSAGE value="Hello World" />
     <MESSAGE value="assignment1" />
-    <option name="LAST_COMMIT_MESSAGE" value="assignment1" />
+    <MESSAGE value="final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="final commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
