@@ -1,0 +1,24 @@
+Please provide the file name : f2016_cs8_a2.data.1.csv
+
+
+File read                 : f2016_cs8_a2.data.1.csv
+Partial Total # of lines  :         50
+Partial distance run      :   2298.967
+
+
+Please provide the file name : f2016_cs8_a2.data.2.csv
+
+
+File read                 : f2016_cs8_a2.data.2.csv
+Partial Total # of lines  :         50
+Partial distance run      :   2195.061
+
+
+Please provide the file name : q
+
+
+File to be read           : quit                
+Total # of lines          :        100
+Total distance run        :   4494.027
+
+Process finished with exit code 0

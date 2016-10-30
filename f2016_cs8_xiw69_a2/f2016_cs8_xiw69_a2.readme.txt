@@ -1,0 +1,5 @@
+First we need to build a infinite loop to handle the whole process, and add an if statement to decide if we want to end the process and break the loop.
+
+Then write a processFile function and read in the file we desired (by asking the user to enter the file name), then read the data in file line by line and using split() function to get distances, then store line numbers and total distances to global variables for easy access by other functions. 
+
+Next, implement printKV() function and format the data(str/int/float), then concatenate those data(key-value pairs) into single string and print it out.
