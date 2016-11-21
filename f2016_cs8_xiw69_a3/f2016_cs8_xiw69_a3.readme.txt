@@ -1,0 +1,7 @@
+First I need to read in the master file list,
+then process files stored in the list and store those data in a dictionary. Create multiple variables to store
+total number of files/ total number of lines/ total distance run etc.
+When reading each line, use the isMax() and isMin() functions to decide which person has the max/min distance.
+I also have a moreThanOnce() function to calculate total number of people with multiple records.
+Finally I need to print out all the stuff on the requirement. and use a csv writer to write the name of the participant,
+how many times their name appears in the input files and the total distance run into a csv file.

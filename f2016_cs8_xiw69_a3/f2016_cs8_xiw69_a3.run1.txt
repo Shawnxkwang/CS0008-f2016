@@ -1,0 +1,23 @@
+HOW TO RUN:
+    directly run the .py file through PyCharm, and a csv file will be generated under the same directory.
+    browse and delete the f2016_cs8_xiw69_a3.data.output.csv file before run the .py file to create a new one.
+
+
+
+
+OUTPUT:
+
+Number of Input files read   :  3
+Total number of lines read   :  453
+
+Total distance run           :  23222.95595
+
+max distance run             :  99.91761
+  by participant             :  Roland
+
+min distance run             :  0.05789
+  by participant             :  Alex
+
+Total number of participants :  388
+Number of participants
+with multiple records        :  60
