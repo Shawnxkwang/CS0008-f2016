@@ -1,17 +1,9 @@
-#
-# MN: requested header is missing
-#
-# Notes:
-# MN: AVOID GLOBALS at al cost!!!
-# MN: please do not use inline comments. they make the code less readable!!
-#
+# CS 0008
+# Professor: Max Novelli
+# Assignment 3
+# Author: Xiaokai Wang
+# Email: xiw69@pitt.edu
 
-"""
-assignment 3
-Xiaokai Wang
-xiw69@pitt.edu
-
-"""
 import sys
 import os
 import csv

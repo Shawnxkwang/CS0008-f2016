@@ -1,16 +1,12 @@
-
-# final project - adapted from my assignment 3 code.
-# Xiaokai Wang
-# xiw69@pitt.edu
+# CS 0008
+# Professor: Max Novelli
+# Final project - adapted from my assignment 3 code.
+# Author: Xiaokai Wang
+# Email: xiw69@pitt.edu
 
 import sys
 import os
 import csv
-
-#-------------------------------
-# key is each participant, value is an instance of class participants
-participantsAndDistance = {}
-#-------------------------------
 
 # class definition
 class participants:
@@ -66,6 +62,9 @@ class participants:
         return "Name : " + "{:>20s}".format(self.name) + \
             ". Distance run : " + "{:9.4f}".format(self.distance) + \
             ". Runs : " + "{:4d}".format(self.runs)
+
+# key is each participant, value is an instance of class participants
+participantsAndDistance = {}
 
 # read in the master input list and get those 3 files.
 def processMasterInputList():
