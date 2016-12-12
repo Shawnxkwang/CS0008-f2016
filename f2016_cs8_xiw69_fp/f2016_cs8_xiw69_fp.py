@@ -7,22 +7,7 @@ import sys
 import os
 import csv
 
-# global vars
 #-------------------------------
-# individual min {person: distance}
-minDist = {}
-# individual max {person: distance}
-maxDist = {}
-# total number of files
-numOfFiles = 0
-# total lines
-totalLines = 0
-# total distances
-totalDistance = 0
-# total participants
-totalParticipants = 0
-# multiple records number of people
-multipleRecords = 0
 # key is each participant, value is an instance of class participants
 participantsAndDistance = {}
 #-------------------------------
@@ -84,7 +69,13 @@ class participants:
 
 # read in the master input list and get those 3 files.
 def processMasterInputList():
-    global numOfFiles
+    # total number of files
+    numOfFiles = 0
+    # total lines
+    totalLines = 0
+    # total distances
+    totalDistance = 0
+
     fileNames = []
     try:
         # combine directories
@@ -102,16 +93,16 @@ def processMasterInputList():
             numOfFiles += 1
             name = os.path.join(fileDir, file)
             fh = open(name, 'r')
-            processFiles(fh)
+            totalLines,totalDistance = processFiles(fh, totalLines, totalDistance)
             fh.close()
 
     except IOError:
         print("Master input list not found. \n")
-
+    return numOfFiles, totalLines, totalDistance
 
 # process individual file
-def processFiles(fh):
-    global totalLines, totalDistance, participantsAndDistance
+def processFiles(fh, totalLines, totalDistance):
+    global participantsAndDistance
 
     # process each line of a single file
     for line in fh:
@@ -123,18 +114,24 @@ def processFiles(fh):
                 participantsAndDistance[line.split(",")[0]] = participants(line.split(",")[0])
             # add distance
             participantsAndDistance[line.split(",")[0]].addDistance(float(line.split(",")[1].rstrip("\n")))
-
-            totalDistance += float(line.split(",")[1].rstrip("\n")) # add total Distance
+            # add total Distance
+            totalDistance += float(line.split(",")[1].rstrip("\n"))
+    return totalLines, totalDistance
 
 def maxAndMin():
     global participantsAndDistance
+    # individual min {person: distance}
+    minDist = {}
+    # individual max {person: distance}
+    maxDist = {}
     # max and min run distance
     for key in participantsAndDistance:
-        isMax(key, float(participantsAndDistance.get(key).getDistance()))
-        isMin(key, float(participantsAndDistance.get(key).getDistance()))
+        isMax(maxDist, key, float(participantsAndDistance.get(key).getDistance()))
+        isMin(minDist,key, float(participantsAndDistance.get(key).getDistance()))
+    return maxDist,minDist
 
 # decide max and min run
-def isMax(person, distance):
+def isMax(maxDist, person, distance):
     if (len(maxDist.keys()) == 0):
         maxDist[person] = distance
     elif (distance > maxDist[next(iter(maxDist))]):
@@ -143,7 +140,7 @@ def isMax(person, distance):
     else:
         return maxDist
 
-def isMin(person, distance):
+def isMin(minDist, person, distance):
     if (len(minDist.keys()) == 0):
         minDist[person] = distance
     elif (distance < minDist[next(iter(minDist))]):
@@ -154,32 +151,34 @@ def isMin(person, distance):
 
 # sum up people with multiple records
 def moreThanOnce():
-    global participantsAndDistance, multipleRecords
+    global participantsAndDistance
+    multipleRecords = 0
     for key in participantsAndDistance:
         if (participantsAndDistance.get(key).getRuns() > 1):
             multipleRecords += 1
-
+    return multipleRecords
 # main function
 def main():
-    global totalParticipants
-    processMasterInputList()
-    maxAndMin()
+    totalParticipants = 0
+    [numOfF, totalL, totalD] = processMasterInputList()
+    [maxD, minD] = maxAndMin()
+
     #sum up total participants
     for key in participantsAndDistance:
         totalParticipants +=1
-    moreThanOnce()
+    mult = moreThanOnce()
 
     #print outputs
-    print('\nNumber of Input files read  ' + ' : ' , numOfFiles)
-    print('Total number of lines read  ' + ' : ' , totalLines, '\n')
-    print('Total distance run          ' + ' : ' , "{:.5f}".format(totalDistance), '\n')
-    print('max distance run            ' + ' : ' , "{:.5f}".format(maxDist.get(next(iter(maxDist)))))
-    print('  by participant            ' + ' : ' , next(iter(maxDist)), '\n')
-    print('min distance run            ' + ' : ' , "{:.5f}".format(minDist.get(next(iter(minDist)))))
-    print('  by participant            ' + ' : ' , next(iter(minDist)), '\n')
+    print('\nNumber of Input files read  ' + ' : ' , numOfF)
+    print('Total number of lines read  ' + ' : ' , totalL, '\n')
+    print('Total distance run          ' + ' : ' , "{:.5f}".format(totalD), '\n')
+    print('max distance run            ' + ' : ' , "{:.5f}".format(maxD.get(next(iter(maxD)))))
+    print('  by participant            ' + ' : ' , next(iter(maxD)), '\n')
+    print('min distance run            ' + ' : ' , "{:.5f}".format(minD.get(next(iter(minD)))))
+    print('  by participant            ' + ' : ' , next(iter(minD)), '\n')
     print('Total number of participants ' + ': ', totalParticipants)
     print('Number of participants')
-    print('with multiple records        ' + ': ', multipleRecords)
+    print('with multiple records        ' + ': ', mult)
 
     # write to csv file
     with open('f2016_cs8_xiw69_fp.data.output.csv', 'w') as f:

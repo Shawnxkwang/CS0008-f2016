@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68dab8d2-62b0-4edb-beab-f23ac140e274" name="Default" comment="assignment 3 complete. with csv writer">
+    <list default="true" id="68dab8d2-62b0-4edb-beab-f23ac140e274" name="Default" comment="a">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/f2016_cs8_xiw69_a3/f2016_cs8_xiw69_a3.data.output.csv" afterPath="$PROJECT_DIR$/f2016_cs8_xiw69_a3/f2016_cs8_xiw69_a3.data.output.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/f2016_cs8_xiw69_fp/f2016_cs8_xiw69_fp.data.output.csv" afterPath="$PROJECT_DIR$/f2016_cs8_xiw69_fp/f2016_cs8_xiw69_fp.data.output.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/f2016_cs8_xiw69_fp/f2016_cs8_xiw69_fp.py" afterPath="$PROJECT_DIR$/f2016_cs8_xiw69_fp/f2016_cs8_xiw69_fp.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/f2016_cs8_xiw69_fp/f2016_cs8_xiw69_fp.run1.txt" afterPath="$PROJECT_DIR$/f2016_cs8_xiw69_fp/f2016_cs8_xiw69_fp.run1.txt" />
     </list>
     <ignored path="CS0008-f2016.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +28,8 @@
       <file leaf-file-name="f2016_cs8_xiw69_fp.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/f2016_cs8_xiw69_fp/f2016_cs8_xiw69_fp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="25" column="69" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
+            <state relative-caret-position="125">
+              <caret line="125" column="16" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="16" />
               <folding>
                 <element signature="e#87#97#0" expanded="true" />
               </folding>
@@ -36,31 +37,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="f2016_cs8_xiw69_fp.run1.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/f2016_cs8_xiw69_fp/f2016_cs8_xiw69_fp.run1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="f2016_cs8_xiw69_a3.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/f2016_cs8_xiw69_a3/f2016_cs8_xiw69_a3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="f2016_cs8_xiw69_a2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/f2016_cs8_xiw69_a2/f2016_cs8_xiw69_a2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1065">
-              <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="f2016_cs8_xiw69_a1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/f2016_cs8_xiw69_a1/f2016_cs8_xiw69_a1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            <state relative-caret-position="360">
+              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -94,8 +85,8 @@
         <option value="$PROJECT_DIR$/f2016_cs8_xiw69_a3/f2016_cs8_xiw69_a3.readme.txt" />
         <option value="$PROJECT_DIR$/f2016_cs8_xiw69_fp/f2016_cs8_fp.data/f2016_cs8_xiw69_fp.py" />
         <option value="$PROJECT_DIR$/f2016_cs8_xiw69_fp/f2016_cs8_xiw69_a3.py" />
-        <option value="$PROJECT_DIR$/f2016_cs8_xiw69_fp/f2016_cs8_xiw69_fp.run1.txt" />
         <option value="$PROJECT_DIR$/f2016_cs8_xiw69_fp/f2016_cs8_xiw69_fp.readme.txt" />
+        <option value="$PROJECT_DIR$/f2016_cs8_xiw69_fp/f2016_cs8_xiw69_fp.run1.txt" />
         <option value="$PROJECT_DIR$/f2016_cs8_xiw69_fp/f2016_cs8_xiw69_fp.py" />
       </list>
     </option>
@@ -161,20 +152,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="f2016_cs8_xiw69_fp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CS0008-f2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CS0008-f2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f2016_cs8_xiw69_a1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -496,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1481528437121</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="minor changes">
+      <created>1481529047977</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1481529047977</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -508,7 +492,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976827" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3262032" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3262032" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24981412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976827" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -560,7 +544,8 @@
     <MESSAGE value="assignment 2 complete." />
     <MESSAGE value="assignment 3 complete. with csv writer" />
     <MESSAGE value="Finish implementing final project for CS 0008. &#10;Added participants class.&#10;init method, str method, and addDistance(d), addDistances(ld), getName(), getRuns(), getDistance()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish implementing final project for CS 0008. &#10;Added participants class.&#10;init method, str method, and addDistance(d), addDistances(ld), getName(), getRuns(), getDistance()" />
+    <MESSAGE value="minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -774,14 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/f2016_cs8_xiw69_fp/f2016_cs8_xiw69_fp.run1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/f2016_cs8_xiw69_a1/f2016_cs8_xiw69_a1.readme.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -798,26 +775,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/f2016_cs8_xiw69_a3/f2016_cs8_xiw69_a3.py">
+    <entry file="file://$PROJECT_DIR$/f2016_cs8_xiw69_fp/f2016_cs8_xiw69_fp.run1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        <state relative-caret-position="365">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/f2016_cs8_xiw69_a2/f2016_cs8_xiw69_a2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        <state relative-caret-position="107">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/f2016_cs8_xiw69_a3/f2016_cs8_xiw69_a3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/f2016_cs8_xiw69_fp/f2016_cs8_xiw69_fp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="25" column="69" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
+        <state relative-caret-position="125">
+          <caret line="125" column="16" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="16" />
           <folding>
             <element signature="e#87#97#0" expanded="true" />
           </folding>
