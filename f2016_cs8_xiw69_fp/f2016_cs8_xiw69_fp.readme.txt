@@ -1,0 +1,10 @@
+
+I adapted the code from my assignment 3, added the participants class as required.
+And in the participants class, I added those methods as required in the final project PDF.
+To provide convenience, I added getRuns() method which returns the 'self.runs' to get the
+total participate times from each participant. I also changed some data structures for the
+OOP design. For instance, my 'participantsAndDistance' variable was a dictionary with
+keys of participants' names and values of a list (first index is total distance; second index
+is individual runs). After the modification for final project, the values in 'participantsAndDistance'
+variable are now instances of participants object, and I can use those public methods in
+participants class to set and get the data I need in this project.
