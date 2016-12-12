@@ -1,23 +1,30 @@
-"""
-final project - adapted from my assignment 3 code.
-Xiaokai Wang
-xiw69@pitt.edu
 
-"""
+# final project - adapted from my assignment 3 code.
+# Xiaokai Wang
+# xiw69@pitt.edu
+
 import sys
 import os
 import csv
 
 # global vars
 #-------------------------------
-minDist = {}  # individual min {person: distance}
-maxDist = {}  # individual max {person: distance}
-numOfFiles = 0  # total number of files
-totalLines = 0  # total lines
-totalDistance = 0 # total distances
-totalParticipants = 0 # total participants
-multipleRecords = 0 # multiple records number of people
-participantsAndDistance = {} # key is each participant, value is an instance of class participants
+# individual min {person: distance}
+minDist = {}
+# individual max {person: distance}
+maxDist = {}
+# total number of files
+numOfFiles = 0
+# total lines
+totalLines = 0
+# total distances
+totalDistance = 0
+# total participants
+totalParticipants = 0
+# multiple records number of people
+multipleRecords = 0
+# key is each participant, value is an instance of class participants
+participantsAndDistance = {}
 #-------------------------------
 
 # class definition
