@@ -1,3 +1,11 @@
+#
+# MN: requested header is missing
+#
+# Notes:
+# MN: AVOID GLOBALS at al cost!!!
+# MN: please do not use inline comments. they make the code less readable!!
+#
+
 """
 assignment 3
 Xiaokai Wang
@@ -9,6 +17,7 @@ import os
 import csv
 
 # global vars
+# MN: AVOID GLOBALS!!!!
 #-------------------------------
 minDist = {}  # individual min {person: distance}
 maxDist = {}  # individual max {person: distance}
@@ -54,6 +63,8 @@ def processFiles(fh):
     # process each line of a single file
     for line in fh:
         totalLines +=1 # if count the header, we have three more lines
+
+        # MN: why do not define a temp varibale that holds values from operations on line?
 
         if (line.split(",")[1].rstrip("\n") != 'distance'):
 
