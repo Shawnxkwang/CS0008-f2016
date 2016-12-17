@@ -79,6 +79,7 @@ def processMasterInputList():
     try:
         # combine directories
         fileDir = os.path.dirname(os.path.realpath('__file__'))
+        # MN: why do you hard code the file name?
         filename = os.path.join(fileDir, 'f2016_cs8_fp.data/f2016_cs8_fp.data.txt')
         f = open(filename, 'r')
 
@@ -101,6 +102,7 @@ def processMasterInputList():
 
 # process individual file
 def processFiles(fh, totalLines, totalDistance):
+    # MN: DO NOT USE GLOBALS
     global participantsAndDistance
 
     # process each line of a single file
@@ -118,6 +120,7 @@ def processFiles(fh, totalLines, totalDistance):
     return totalLines, totalDistance
 
 def maxAndMin():
+    # MN: DO NOT USE GLOBALS
     global participantsAndDistance
     # individual min {person: distance}
     minDist = {}
@@ -150,6 +153,7 @@ def isMin(minDist, person, distance):
 
 # sum up people with multiple records
 def moreThanOnce():
+    # MN: DO NOT USE GLOBALS
     global participantsAndDistance
     multipleRecords = 0
     for key in participantsAndDistance:
